@@ -1,0 +1,21 @@
+{
+    "name": "sfcms/fakeimg-bundle",
+    "description": "Symfony bundle to generate WebP placeholder images like fakeimg-360x500.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sébastien Fournier"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FakerImg\\": "src/FakerImg/"
+        }
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-gd": "*",
+        "symfony/framework-bundle": "^7.3"
+    }
+}
